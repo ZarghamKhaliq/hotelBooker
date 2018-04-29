@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783825906669",
+    "firebase_url": "https://hotelroombooker.firebaseio.com",
+    "project_id": "hotelroombooker",
+    "storage_bucket": "hotelroombooker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783825906669:android:8f405bc339a8dde4",
+        "android_client_info": {
+          "package_name": "com.zeekay.hotelroombooker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783825906669-fj6du80gp6oo1hmc781ovs00vpr6q0f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeekay.hotelroombooker",
+            "certificate_hash": "cc6f49c5cd037ffd92443901db6ee4127ec51ebb"
+          }
+        },
+        {
+          "client_id": "783825906669-74e8qn567pmpqfkm5h84gncqpbosko1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNP7RA044m_l1WuKLDl78P34vr4OVlTHk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783825906669-74e8qn567pmpqfkm5h84gncqpbosko1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
