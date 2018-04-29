@@ -35,5 +35,14 @@ public class adminMenu extends AppCompatActivity {
         startActivity(new Intent(this ,bookedRoom.class));
     }
 
+    public void deleteRoom(View v){
+        startActivity(new Intent(this ,deleteRoom.class));
+    }
+    public void editRoom(View v){
+        startActivity(new Intent(this ,editRoomList.class));
+    }
+    public void deleteComments(View v){
+        startActivity(new Intent(this ,deleteComment.class));
+    }
 
 }

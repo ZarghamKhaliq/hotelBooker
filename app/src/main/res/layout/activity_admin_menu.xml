@@ -4,46 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".adminMenu">
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
         android:onClick="AddRoom"
-        android:text="Add Rooms" />
+        android:text="Add Rooms"
+        android:textColor="@color/buttonText" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="freeRooms"
-        android:text="Show Free Rooms" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="bookedRoom"
-        android:text="Show Booked Rooms" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="DeleteUsers"
-        android:text="Delete Users" />
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="deleteRoom"
+        android:text="Delete Rooms"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Edit Rooms" />
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="editRoom"
+        android:text="Edit Rooms"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="freeRooms"
+        android:text="Show Free Rooms"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="bookedRoom"
+        android:text="Show Booked Rooms"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="deleteComments"
+        android:text="Delete Comments"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+        android:onClick="DeleteUsers"
+        android:text="Delete Users"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
+
         android:onClick="logout"
-        android:text="Logout" />
+        android:text="Logout"
+        android:textColor="@color/buttonText" />
 </LinearLayout>

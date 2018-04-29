@@ -57,6 +57,10 @@ public class addRoom extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_room);
 
+        uri1=null;
+        uri2=null;
+        uri3=null;
+
         mStorageRef = FirebaseStorage.getInstance().getReference();
         db=FirebaseDatabase.getInstance();
         roomList=new ArrayList<>();
@@ -113,9 +117,12 @@ public class addRoom extends AppCompatActivity {
         int index=roomList.size()-1;
 
 
-        uploadImage(uri1,r.getNum(),"im1",index);
-        uploadImage(uri2,r.getNum(),"im2",index);
-        uploadImage(uri3,r.getNum(),"im3",index);
+        if(uri1!=null)
+            uploadImage(uri1,r.getNum(),"im1",index);
+        if(uri2!=null)
+            uploadImage(uri2,r.getNum(),"im2",index);
+        if(uri3!=null)
+            uploadImage(uri3,r.getNum(),"im3",index);
 
 
 

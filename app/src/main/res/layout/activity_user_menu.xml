@@ -4,41 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical"
+    android:padding="15dp"
     tools:context=".userMenu">
 
     <Button
         android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+
+        android:backgroundTintMode="multiply"
         android:onClick="bookRoom"
-        android:text="Book Room" />
+        android:text="Book Room"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+
+        android:backgroundTintMode="multiply"
         android:onClick="giveReview"
-        android:text="Give review" />
+        android:text="Give review"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+        android:backgroundTintMode="multiply"
         android:onClick="rate"
-        android:text="Rate" />
+        android:text="Rate"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+
+        android:backgroundTintMode="multiply"
         android:onClick="showProfile"
-        android:text="Profile" />
+        android:text="Profile"
+        android:textColor="@color/buttonText" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+
+        android:backgroundTintMode="multiply"
         android:onClick="logout"
-        android:text="Logout" />
+        android:text="Logout"
+        android:textColor="@color/buttonText" />
 </LinearLayout>

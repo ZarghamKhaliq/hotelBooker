@@ -34,7 +34,10 @@
         <activity android:name=".bookRoom" />
         <activity android:name=".userList" />
         <activity android:name=".editRoom" />
-        <activity android:name=".bookedRoom"></activity>
+        <activity android:name=".bookedRoom" />
+        <activity android:name=".deleteRoom" />
+        <activity android:name=".editRoomList" />
+        <activity android:name=".deleteComment"></activity>
     </application>
 
 </manifest>
