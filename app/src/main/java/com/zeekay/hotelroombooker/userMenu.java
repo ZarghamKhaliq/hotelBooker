@@ -91,7 +91,8 @@ public class userMenu extends AppCompatActivity {
 
 
     public  void bookRoom(View V){
-        startActivity(new Intent(this,roomList.class));
+        //startActivity(new Intent(this,roomList.class));
+        startActivity(new Intent(this,freeRoomList.class));
     }
     public  void giveReview(View V){
 

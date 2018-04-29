@@ -1,14 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".bookRoom">
+    tools:context=".addRoom">
 
-    <ListView
-        android:id="@+id/list"
+
+    <CheckBox
+        android:id="@+id/tv"
+        android:editable="false"
+        android:enabled="false"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:text="Televison" />
+
+    <CheckBox
+        android:editable="false"
+        android:enabled="false"
+        android:id="@+id/wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi" />
+
+    <CheckBox
+        android:editable="false"
+        android:enabled="false"
+        android:id="@+id/ac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Air Condition" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Room # " />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="Beds # " />
+
+        <TextView
+            android:id="@+id/beds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:padding="5dp"
+            android:text="Price" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="uploadIm1"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="uploadIm2"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="uploadIm3"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
+
+
+        android:backgroundTintMode="multiply"
+        android:onClick="Book"
+        android:text="Book"
+        android:textColor="@color/buttonText" />
 </LinearLayout>
+</ScrollView>

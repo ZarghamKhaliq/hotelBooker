@@ -37,7 +37,8 @@
         <activity android:name=".bookedRoom" />
         <activity android:name=".deleteRoom" />
         <activity android:name=".editRoomList" />
-        <activity android:name=".deleteComment"></activity>
+        <activity android:name=".deleteComment" />
+        <activity android:name=".freeRoomList"></activity>
     </application>
 
 </manifest>
